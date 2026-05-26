@@ -117,42 +117,42 @@
             label = "MACRO_3";
         };
 
-        macro_4: macro_4 {
+        pass_1: macro_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp P &kp N0 &kp S &kp N6 &kp UNDER &kp Z &kp I &kp P>;
             label = "MACRO_4";
         };
 
-        pass_1: macro_5 {
+        pass_2: macro_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp V &kp N0 &kp I &kp S &kp N4 &kp EXCL &kp UNDER &kp LS(Z) &kp LS(I) &kp LS(P)>;
             label = "MACRO_5";
         };
 
-        pass_2: macro_6 {
+        pass_3: macro_6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp A &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp Q>;
             label = "MACRO_6";
         };
 
-        macro_7: macro_7 {
+        pass_4: macro_7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp AT>;
             label = "MACRO_7";
         };
 
-        pass_3: macro_8 {
+        pass_5: macro_8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp AT>;
             label = "MACRO_8";
         };
 
-        pass_4: macro_9 {
+        pass_6: macro_9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp S &kp T &kp I &kp M &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp AT>;
@@ -215,8 +215,8 @@
         macro {
             bindings = <
 &trans  &trans  &trans   &trans   &trans                        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &pass_3  &pass_1  &mail_3  &mail_1      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &pass_4  &pass_2  &mail_4  &mail_2      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &pass_5  &pass_5  &mail_3  &mail_1      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &pass_6  &pass_5  &mail_4  &mail_2      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans   &trans   &trans       &trans  &trans                          &trans
             >;
         };
