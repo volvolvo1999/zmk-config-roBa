@@ -215,8 +215,8 @@
         macro {
             bindings = <
 &trans  &trans  &trans   &trans   &trans                        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &pass_5  &pass_5  &mail_3  &mail_1      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &pass_6  &pass_5  &mail_4  &mail_2      &trans  &trans  &trans  &trans  &trans  &trans
+&pass_5  &pass_3  &pass_1  &mail_3  &mail_1  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&pass_6  &pass_4  &pass_2  &mail_4  &mail_2  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans   &trans   &trans       &trans  &trans                          &trans
             >;
         };
