@@ -214,10 +214,10 @@
 
         macro {
             bindings = <
-&trans   &trans   &trans   &trans   &trans                       &trans  &trans  &trans  &trans  &trans
-&pass_5  &pass_3  &pass_1  &mail_3  &mail_1  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&pass_6  &pass_4  &pass_2  &mail_4  &mail_2  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans   &trans   &trans   &trans      &trans  &trans                          &trans
+&trans   &trans   &trans   &trans   &trans                                    &kp SCROLLLOCK    &kp KP_NUMLOCK  &trans  &trans  &trans
+&pass_5  &pass_3  &pass_1  &mail_3  &mail_1  &trans      &kp LA(PRINTSCREEN)  &kp LS(CAPSLOCK)  &trans          &trans  &trans  &trans
+&pass_6  &pass_4  &pass_2  &mail_4  &mail_2  &trans      &kp PRINTSCREEN      &kp LS(LG(S))     &trans          &trans  &trans  &trans
+&trans   &trans   &trans   &trans   &trans   &trans      &trans               &trans                                            &trans
             >;
         };
 
