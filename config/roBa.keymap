@@ -92,7 +92,7 @@
         mail_1: macro_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp R &kp A &kp I &kp UNDER &kp A &kp K &kp I &kp R &kp A &kp JP_AT &kp N &kp E &kp C &kp DOT &kp C &kp O &kp M>;
+            bindings = <&kp A &kp R &kp A &kp I &kp JP_UNDERSCORE &kp A &kp K &kp I &kp R &kp A &kp JP_AT &kp N &kp E &kp C &kp DOT &kp C &kp O &kp M>;
             label = "MACRO_0";
         };
 
@@ -106,7 +106,7 @@
         mail_3: macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp V &kp O &kp L &kp V &kp O &kp UNDER &kp V &kp N7 &kp N0 &kp UNDER &kp N1 &kp N9 &kp N9 &kp N9 &kp JP_AT &kp Y &kp A &kp H &kp O &kp O &kp DOT &kp C &kp O &kp DOT &kp J &kp P>;
+            bindings = <&none &kp V &kp O &kp L &kp V &kp O &kp JP_UNDERSCORE &kp V &kp N7 &kp N0 &kp JP_UNDERSCORE &kp N1 &kp N9 &kp N9 &kp N9 &kp JP_AT &kp Y &kp A &kp H &kp O &kp O &kp DOT &kp C &kp O &kp DOT &kp J &kp P>;
             label = "MACRO_2";
         };
 
@@ -120,14 +120,14 @@
         pass_1: macro_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp P &kp N0 &kp S &kp N6 &kp UNDER &kp Z &kp I &kp P>;
+            bindings = <&kp LS(E) &kp P &kp N0 &kp S &kp N6 &kp JP_UNDERSCORE &kp Z &kp I &kp P>;
             label = "MACRO_4";
         };
 
         pass_2: macro_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V &kp N0 &kp I &kp S &kp N4 &kp EXCL &kp UNDER &kp LS(Z) &kp LS(I) &kp LS(P)>;
+            bindings = <&kp V &kp N0 &kp I &kp S &kp N4 &kp EXCL &kp JP_UNDERSCORE &kp LS(Z) &kp LS(I) &kp LS(P)>;
             label = "MACRO_5";
         };
 
@@ -177,8 +177,8 @@
         default_layer {
             bindings = <
 &kp Q           &kp W    &kp E         &kp R                 &kp T                                               &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S    &kp D         &kp F                 &kp G        &kp ESC               &kp UNDERSCORE   &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z           &kp X    &kp C         &kp V                 &kp B        &lt 5 LEFT_WIN        &kp AT           &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
+&kp A           &kp S    &kp D         &kp F                 &kp G        &kp ESC               &kp JP_UNDERSCORE   &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z           &kp X    &kp C         &kp V                 &kp B        &lt 5 LEFT_WIN        &kp JP_AT           &kp N        &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
 &kp LEFT_SHIFT  &kp TAB  &kp LEFT_ALT  &mt LCTRL LANGUAGE_1  &lt 1 SPACE  &lt 3 LANGUAGE_2      &lt 4 BACKSPACE  &lt 2 ENTER                             &lt 3 DELETE
             >;
 
@@ -196,9 +196,9 @@
 
         NUM {
             bindings = <
-&kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS                                               &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND  &kp AT_SIGN       &kp DOLLAR
-&kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp RIGHT_BRACKET      &kp MINUS        &kp TILDE      &kp HASH          &kp COLON
-&kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE        &kp SLASH                    &kp PIPE        &kp RIGHT_BRACE        &kp UNDERSCORE   &kp CARET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LPAREN                                               &kp JP_RPAREN  &kp EXCLAMATION  &kp AMPERSAND  &kp JP_AT       &kp DOLLAR
+&kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET      &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDERSCORE  &kp JP_RBRACKET      &kp MINUS        &kp TILDE      &kp HASH          &kp COLON
+&kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_LBRACE        &kp SLASH                    &kp PIPE        &kp JP_RBRACE        &kp JP_UNDERSCORE   &kp CARET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
 &trans        &kp NUMBER_0  &kp PERIOD    &trans        &trans                &trans                       &trans          &trans                                                                   &trans
             >;
         };
