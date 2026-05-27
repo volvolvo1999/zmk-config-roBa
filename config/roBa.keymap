@@ -158,13 +158,6 @@
             bindings = <&kp LS(E) &kp S &kp T &kp I &kp M &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp JP_AT>;
             label = "MACRO_9";
         };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "NEW_MACRO";
-        };
     };
 
     behaviors {
