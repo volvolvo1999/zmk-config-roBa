@@ -196,10 +196,10 @@
 
         NUM {
             bindings = <
-&kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LPAREN                                                           &kp JP_RPAREN    &kp EXCLAMATION    &kp AMPERSAND  &kp JP_AT         &kp DOLLAR
-&kp JP_PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET      &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDERSCORE  &kp JP_RBRACKET  &kp MINUS          &kp TILDE      &kp HASH          &kp COLON
-&kp JP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_LBRACE        &kp SLASH                    &kp PIPE           &kp JP_RBRACE    &kp JP_UNDERSCORE  &kp JP_CARET   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-&trans        &kp NUMBER_0  &kp PERIOD    &trans        &trans                &trans                       &trans            &trans                                                               &trans
+&kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LPAREN                                              &kp JP_RPAREN    &kp EXCLAMATION    &kp AMPERSAND  &kp JP_AT     &kp DOLLAR
+&kp JP_PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET      &kp JP_YEN      &kp JP_UNDERSCORE  &kp JP_RBRACKET  &kp MINUS          &kp JP_TILDE   &kp HASH      &kp COLON
+&kp JP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_LBRACE        &kp SLASH       &kp PIPE           &kp JP_RBRACE    &kp JP_UNDERSCORE  &kp JP_CARET   &kp JP_QUOTE  &kp JP_DQUOTE
+&trans        &kp NUMBER_0  &kp PERIOD    &trans        &trans                &trans         &trans            &trans                                                           &trans
             >;
         };
 
