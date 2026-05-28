@@ -225,7 +225,7 @@
             bindings = <
 &trans  &trans         &trans     &trans    &trans                        &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &trans    &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &dpi_high  &dpi_mid  &dpi_low  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans    &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LS(LCTRL)  &trans     &trans    &trans    &trans      &trans  &trans                          &trans
             >;
         };
