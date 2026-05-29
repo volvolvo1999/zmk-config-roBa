@@ -197,7 +197,7 @@
         NUM {
             bindings = <
 &kp JP_ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_LPAREN                                       &kp JP_RPAREN    &kp EXCLAMATION    &kp JP_AMPERSAND  &kp JP_AT     &kp DOLLAR
-&kp JP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET  &kp JP_YEN      &kp JP_UNDERSCORE  &kp JP_RBRACKET  &kp MINUS          &kp JP_TILDE      &kp HASH      &kp JP_COLON
+&kp JP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET  &kp JP_YEN      &kp JP_DQUOTE      &kp JP_RBRACKET  &kp MINUS          &kp JP_TILDE      &kp HASH      &kp JP_COLON
 &kp JP_EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_LBRACE    &kp SLASH       &kp JP_PIPE        &kp JP_RBRACE    &kp JP_UNDERSCORE  &kp JP_CARET      &kp JP_QUOTE  &kp JP_DQUOTE
 &trans           &kp NUMBER_0  &kp PERIOD    &trans        &trans           &trans          &trans             &trans                                                              &trans
             >;
