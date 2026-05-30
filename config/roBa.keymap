@@ -221,7 +221,7 @@
 
         macro {
             bindings = <
-&trans   &trans   &tran s  &trans   &trans                                    &kp K_CALCULATOR     &kp SCROLLLOCK    &kp KP_NUMLOCK  &kp C_MUTE         &trans
+&trans   &trans   &tran    &trans   &trans                                    &kp K_CALCULATOR     &kp SCROLLLOCK    &kp KP_NUMLOCK  &kp C_MUTE         &trans
 &pass_7  &pass_5  &pass_3  &pass_1  &mail_3  &mail_1                  &trans  &kp LS(PRINTSCREEN)  &kp LS(CAPSLOCK)  &trans          &kp C_VOLUME_UP    &trans
 &trans   &pass_6  &pass_4  &pass_2  &mail_4  &mail_2                  &trans  &kp PRINTSCREEN      &kp LG(LS(S))     &trans          &kp C_VOLUME_DOWN  &trans
 &trans   &trans   &trans   &kp JP_HANZEN  &trans   &kp JP_HANZEN      &trans  &trans                                                                    &trans
