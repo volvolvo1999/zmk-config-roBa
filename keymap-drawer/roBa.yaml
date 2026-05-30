@@ -61,7 +61,7 @@ layers:
   - Ctl+PAGE DOWN
   - HOME
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F11
   - '&mkp MB4'
   - '&mkp MB1'
   - UP ARROW
@@ -73,12 +73,12 @@ layers:
   - PAGE DOWN
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - '&mkp MB5'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: F11, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F12
+  - {t: ▽, type: trans}
   NUM:
   - '"'
   - '7'
@@ -187,24 +187,24 @@ layers:
   - KP NUMLOCK
   - MUTE
   - {t: ▽, type: trans}
+  - '&pass_7'
   - '&pass_5'
   - '&pass_3'
   - '&pass_1'
   - '&mail_3'
   - '&mail_1'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+PRINTSCREEN
   - Sft+CAPSLOCK
   - {t: ▽, type: trans}
   - VOLUME UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&pass_6'
   - '&pass_4'
   - '&pass_2'
   - '&mail_4'
   - '&mail_2'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - Gui+Sft+S
