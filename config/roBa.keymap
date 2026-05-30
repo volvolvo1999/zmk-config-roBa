@@ -194,19 +194,19 @@
 
         MOUSE {
             bindings = <
-&kp F1  &kp F2           &kp F3         &kp F4             &kp F5                        &kp F6    &kp F7          &kp F8          &kp F9           &kp F10
-&trans  &kp LC(PAGE_UP)  &trans         &kp LC(PAGE_DOWN)  &kp HOME  &trans      &trans  &mkp MB4  &mkp MB1        &kp UP_ARROW    &mkp MB2         &mkp MB3
-&trans  &kp PAGE_UP      &kp LS(LCTRL)  &kp PAGE_DOWN      &kp END   &trans      &trans  &mkp MB5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11
-&trans  &trans           &trans         &trans             &trans    &trans      &trans  &trans                                                     &kp F12
+&kp F1  &kp F2           &kp F3         &kp F4             &kp F5                         &kp F6    &kp F7          &kp F8          &kp F9           &kp F10
+&trans  &kp LC(PAGE_UP)  &trans         &kp LC(PAGE_DOWN)  &kp HOME  &trans      &kp F11  &mkp MB4  &mkp MB1        &kp UP_ARROW    &mkp MB2         &mkp MB3
+&trans  &kp PAGE_UP      &kp LS(LCTRL)  &kp PAGE_DOWN      &kp END   &trans      &kp F12  &mkp MB5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans           &trans         &trans             &trans    &trans      &trans   &trans                                                     &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp JP_ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_LPAREN                                       &kp JP_RPAREN    &kp EXCLAMATION    &kp JP_AMPERSAND  &kp JP_AT     &kp DOLLAR
-&kp JP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET  &kp JP_YEN      &kp JP_DQUOTE      &kp JP_RBRACKET  &kp MINUS          &kp JP_TILDE      &kp HASH      &kp JP_COLON
-&kp JP_EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_LBRACE    &kp SLASH       &kp JP_PIPE        &kp JP_RBRACE    &kp JP_UNDERSCORE  &kp JP_CARET      &kp JP_QUOTE  &kp JP_DQUOTE
-&trans           &kp NUMBER_0  &kp PERIOD    &trans        &trans           &trans          &trans             &trans                                                              &trans
+&kp JP_ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_LPAREN                                   &kp JP_RPAREN    &kp EXCLAMATION    &kp JP_AMPERSAND  &kp JP_AT     &kp DOLLAR
+&kp JP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_LBRACKET  &kp JP_YEN      &kp JP_DQUOTE  &kp JP_RBRACKET  &kp MINUS          &kp JP_TILDE      &kp HASH      &kp JP_COLON
+&kp JP_EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_LBRACE    &kp SLASH       &kp JP_PIPE    &kp JP_RBRACE    &kp JP_UNDERSCORE  &kp JP_CARET      &kp JP_QUOTE  &kp JP_DQUOTE
+&trans           &kp NUMBER_0  &kp PERIOD    &trans        &trans           &trans          &trans         &trans                                                              &trans
             >;
         };
 
@@ -221,9 +221,9 @@
 
         macro {
             bindings = <
-&trans   &trans   &trans   &trans   &trans                                    &kp K_CALCULATOR     &kp SCROLLLOCK    &kp KP_NUMLOCK  &kp C_MUTE         &trans
-&pass_7  &pass_5  &pass_3  &pass_1  &mail_3  &mail_1                  &trans  &kp LS(PRINTSCREEN)  &kp LS(CAPSLOCK)  &trans          &kp C_VOLUME_UP    &trans
-&trans   &pass_6  &pass_4  &pass_2  &mail_4  &mail_2                  &trans  &kp PRINTSCREEN      &kp LG(LS(S))     &trans          &kp C_VOLUME_DOWN  &trans
+&trans   &trans   &trans   &trans         &trans                              &kp K_CALCULATOR     &kp SCROLLLOCK    &kp KP_NUMLOCK  &kp C_MUTE         &trans
+&pass_7  &pass_5  &pass_3  &pass_1        &mail_3  &mail_1            &trans  &kp LS(PRINTSCREEN)  &kp LS(CAPSLOCK)  &trans          &kp C_VOLUME_UP    &trans
+&trans   &pass_6  &pass_4  &pass_2        &mail_4  &mail_2            &trans  &kp PRINTSCREEN      &kp LG(LS(S))     &trans          &kp C_VOLUME_DOWN  &trans
 &trans   &trans   &trans   &kp JP_HANZEN  &trans   &kp JP_HANZEN      &trans  &trans                                                                    &trans
             >;
         };
