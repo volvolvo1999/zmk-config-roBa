@@ -105,7 +105,7 @@ layers:
   - '6'
   - ']'
   - '0x89'
-  - '@'
+  - '%'
   - \
   - '-'
   - +
@@ -116,7 +116,7 @@ layers:
   - '2'
   - '3'
   - '}'
-  - /
+  - '?'
   - Sft+0x89
   - '|'
   - Sft+0x87
@@ -150,10 +150,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '&mmv MOVE_UP'
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
@@ -316,6 +316,6 @@ combos:
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
-  k: '"'
+  k: '@'
 - p: [24, 25]
-  k: '='
+  k: _
