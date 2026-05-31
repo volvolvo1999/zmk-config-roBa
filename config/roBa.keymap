@@ -71,12 +71,12 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp JP_DQUOTE>;
             key-positions = <20 21>;
         };
 
         eq {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp JP_EQUAL>;
             key-positions = <24 25>;
         };
     };
