@@ -69,7 +69,7 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - PAGE UP
-  - Sft+LCTRL
+  - {t: ▽, type: trans}
   - PAGE DOWN
   - END
   - {t: ▽, type: trans}
