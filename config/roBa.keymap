@@ -177,7 +177,7 @@
             tapping-term-ms = <200>;
         };
 
-        bspc_lt: bspc_layer {
+        etc_lt: etc_layer {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -189,7 +189,6 @@
         space_lt: space_layer {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-
             flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
@@ -199,7 +198,6 @@
         enter_lt: enter_layer {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-
             flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
@@ -210,7 +208,6 @@
         backspace_lt: backspace_layer {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-
             flavor = "balanced";
             tapping-term-ms = <175>;
             quick-tap-ms = <200>;
@@ -226,8 +223,8 @@
             bindings = <
 &kp Q           &kp W    &kp E         &kp R              &kp T                                                            &kp Y             &kp U  &kp I      &kp O    &kp P
 &kp A           &kp S    &kp D         &kp F              &kp G             &kp ESC                  &kp JP_UNDERSCORE     &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z           &kp X    &kp C         &kp V              &kp B             &bspc_lt 5 LEFT_WIN      &kp JP_AT             &kp N             &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
-&kp LEFT_SHIFT  &kp TAB  &kp LEFT_ALT  &mt LCTRL JP_EISU  &space_lt 1 SPACE  &lt 3 JP_KANA            &backspace_lt 4 BACKSPACE  &enter_lt 2 ENTER                             &bspc_lt 3 DELETE
+&kp Z           &kp X    &kp C         &kp V              &kp B             &etc_lt 5 LEFT_WIN      &kp JP_AT             &kp N             &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
+&kp LEFT_SHIFT  &kp TAB  &kp LEFT_ALT  &mt LCTRL JP_EISU  &space_lt 1 SPACE  &lt 3 JP_KANA            &backspace_lt 4 BACKSPACE  &enter_lt 2 ENTER                             &etc_lt 3 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
