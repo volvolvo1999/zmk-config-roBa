@@ -92,7 +92,7 @@
         mail_1: macro_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp R &kp A &kp I &kp JP_UNDERSCORE &kp A &kp K &kp I &kp R &kp A &kp JP_AT &kp N &kp E &kp C &kp DOT &kp C &kp O &kp M>;
+            bindings = <&kp A &kp R &kp A &kp I &kp JP_UNDERSCORE &kp A &kp K &kp I &kp R &kp A &kp LEFT_BRACKET &kp N &kp E &kp C &kp DOT &kp C &kp O &kp M>;
             label = "MACRO_0";
         };
 
@@ -106,14 +106,14 @@
         mail_3: macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V &kp O &kp L &kp V &kp O &kp JP_UNDERSCORE &kp V &kp N7 &kp N0 &kp JP_UNDERSCORE &kp N1 &kp N9 &kp N9 &kp N9 &kp JP_AT &kp Y &kp A &kp H &kp O &kp O &kp DOT &kp C &kp O &kp DOT &kp J &kp P>;
+            bindings = <&kp V &kp O &kp L &kp V &kp O &kp JP_UNDERSCORE &kp V &kp N7 &kp N0 &kp JP_UNDERSCORE &kp N1 &kp N9 &kp N9 &kp N9 &kp LEFT_BRACKET &kp Y &kp A &kp H &kp O &kp O &kp DOT &kp C &kp O &kp DOT &kp J &kp P>;
             label = "MACRO_2";
         };
 
         mail_4: macro_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V &kp O &kp L &kp V &kp O &kp DOT &kp V &kp N7 &kp N0 &kp DOT &kp N1 &kp N9 &kp N9 &kp N9 &kp JP_AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            bindings = <&kp V &kp O &kp L &kp V &kp O &kp DOT &kp V &kp N7 &kp N0 &kp DOT &kp N1 &kp N9 &kp N9 &kp N9 &kp LEFT_BRACKET &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "MACRO_3";
         };
 
@@ -148,21 +148,21 @@
         pass_5: macro_8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp JP_AT>;
+            bindings = <&kp LS(A) &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp LEFT_BRACKET>;
             label = "MACRO_8";
         };
 
         pass_6: macro_9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp JP_AT>;
+            bindings = <&kp LS(A) &kp A &kp K &kp I &kp R &kp A &kp N0 &kp N5 &kp LEFT_BRACKET>;
             label = "MACRO_9";
         };
 
         pass_7: macro_10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp S &kp T &kp I &kp M &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp JP_AT>;
+            bindings = <&kp LS(E) &kp S &kp T &kp I &kp M &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp LEFT_BRACKET>;
             label = "MACRO_10";
         };
     };
