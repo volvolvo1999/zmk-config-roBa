@@ -193,7 +193,8 @@
             tapping-term-ms = <250>;
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <18 19 30 31 32 17 29>;
+            hold-trigger-key-positions = <18 19 30 31 32 17 29 20>;
+            hold-trigger-on-release;
         };
 
         enter_lt: enter_layer {
