@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - Sft+PRINTSCREEN
   - Sft+CAPSLOCK
-  - {t: ▽, type: trans}
+  - '&caps_word'
   - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
