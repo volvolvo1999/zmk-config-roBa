@@ -195,6 +195,7 @@
 
             hold-trigger-key-positions = <18 19 30 31 32 17 29 20>;
             hold-trigger-on-release;
+            quick-tap-ms = <175>;
         };
 
         enter_lt: enter_layer {
