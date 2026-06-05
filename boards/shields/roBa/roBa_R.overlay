@@ -13,7 +13,7 @@
         32 // ,
         33 // .
     >;
-     require-prior-idle-ms = <200>;
+//     require-prior-idle-ms = <200>;
 };
 
 &default_transform {
