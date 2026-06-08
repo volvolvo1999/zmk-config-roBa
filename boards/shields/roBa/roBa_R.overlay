@@ -3,6 +3,7 @@
 //Input Processorを使用したオートマウスレイヤー
 #include <input/processors.dtsi>
 &zip_temp_layer {
+    require-prior-idle-ms = <200>;
     excluded-positions = <
         18 // h
         19 // j
@@ -16,6 +17,7 @@
         34 // /
     >;
 };
+//END
 
 / {
     trackball_listener: trackball_listener {
