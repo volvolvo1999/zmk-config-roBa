@@ -6,7 +6,7 @@
 //Input Processorを使用したオートマウスレイヤー
 #include <input/processors.dtsi>
 &mkp_input_listener {
-    input-processors = <&zip_temp_layer 6 10000>;
+    input-processors = <&zip_temp_layer 6 8000>;
 };
 //END
 
