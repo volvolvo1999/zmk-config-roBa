@@ -231,7 +231,7 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <17 18 19 20 29 30 31 32 21>;
+            hold-trigger-key-positions = <17 18 19 20 21 29 30 31 32>;
             hold-trigger-on-release;
             quick-tap-ms = <175>;
         };
