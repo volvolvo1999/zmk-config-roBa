@@ -40,28 +40,20 @@
         device = <&trackball>;
 
 //Input Processorを使用したオートマウスレイヤー
-//        scroll {
-//            layers = <3>;
-//            input-processors =<
-//                &zip_xy_to_scroll_mapper
-//                &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
-//                &zip_scroll_scaler 1 8
-//            >;
-//        };
         scroll {
             layers = <3>;
             input-processors = <
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_x_scaler 0 1
                 &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
-                &zip_scroll_scaler 1 10
+                &zip_scroll_scaler 1 12
             >;
         };
 
 
         aml {
             layers = <0>;
-            input-processors =<&zip_temp_layer 6 1000>;
+            input-processors =<&zip_temp_layer 6 800>;
         };
 //END
     };
