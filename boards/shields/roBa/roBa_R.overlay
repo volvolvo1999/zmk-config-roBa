@@ -24,7 +24,19 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        input-processors = <&zip_temp_layer 5 1000>;
+//Input Processorを使用したオートマウスレイヤー
+//        input-processors = <&zip_temp_layer 5 1000>;
+
+        scroll {
+            layers = <3>;
+            input-processors =<&zip_xy_to_scroll_mapper>;
+        };
+
+        aml {
+            layers = <0>;
+            input-processors =<&zip_temp_layer 6 1000>;
+        };
+//END
     };
 };
 
