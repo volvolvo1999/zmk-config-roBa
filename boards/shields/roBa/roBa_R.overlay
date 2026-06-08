@@ -2,6 +2,7 @@
 
 //Input Processorを使用したオートマウスレイヤー
 #include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 &zip_temp_layer {
     require-prior-idle-ms = <200>;
     excluded-positions = <
