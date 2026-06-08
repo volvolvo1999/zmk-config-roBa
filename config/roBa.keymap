@@ -104,7 +104,7 @@
         mail_2: macro_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_2 &kp LANGUAGE_2 &kp A &kp K &kp I &kp R &kp A &kp MINUS &kp A &kp R &kp A &kp I &kp JP_AT &kp N &kp E &kp C &kp DOT &kp C &kp O &kp M>;
+            bindings = <&kp LANGUAGE_2 &kp A &kp K &kp I &kp R &kp A &kp MINUS &kp A &kp R &kp A &kp I &kp JP_AT &kp N &kp E &kp C &kp DOT &kp C &kp O &kp M>;
             label = "MACRO_1";
         };
 
