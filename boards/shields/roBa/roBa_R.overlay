@@ -16,7 +16,6 @@
         30 // m
         31 // ,
         32 // .
-        33 // /
     >;
 };
 //END
@@ -53,7 +52,7 @@
 
         aml {
             layers = <0>;
-            input-processors =<&zip_temp_layer 6 800>;
+            input-processors =<&zip_temp_layer 6 750>;
         };
 //END
     };
