@@ -38,12 +38,12 @@ layers:
   - LEFT SHIFT
   - TAB
   - LEFT ALT
-  - {t: LANGUAGE 2, h: LCTRL}
+  - {t: '`', h: LCTRL}
   - {t: SPACE, h: MOUSE}
-  - {t: LANGUAGE 1, h: SCROLL}
+  - {t: DEL, h: SCROLL}
   - {t: BACKSPACE, h: macro}
   - {t: ENTER, h: NUM}
-  - {t: DELETE, h: SCROLL}
+  - {t: '-', h: SCROLL}
   MOUSE:
   - F1
   - F2
@@ -105,7 +105,7 @@ layers:
   - '6'
   - ']'
   - '0x89'
-  - '%'
+  - '@'
   - \
   - '-'
   - +
@@ -116,13 +116,13 @@ layers:
   - '2'
   - '3'
   - '}'
-  - '?'
+  - /
   - Sft+0x89
   - '|'
   - Sft+0x87
   - '='
   - '&'
-  - '@'
+  - '?'
   - {t: ▽, type: trans}
   - '0'
   - .
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - '%'
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,7 +264,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  '6':
+  Auto_Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
