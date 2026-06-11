@@ -264,14 +264,12 @@
             bindings = <&mo>, <&kp>;
         };
 
-        behaviors {
-            paren_ht: paren_ht {
-                compatible = "zmk,behavior-hold-tap";
-                #binding-cells = <0>;
-                flavor = "balanced";
-                tapping-term-ms = <200>;
-                bindings = <&kp RPAR>, <&parentheses>;
-            };
+        paren_ht: paren_ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <0>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&kp RPAR>, <&parentheses>;
         };
     };
 
