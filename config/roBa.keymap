@@ -205,6 +205,13 @@
             bindings = <&kp LANGUAGE_2 &kp LS(E) &kp S &kp T &kp I &kp M &kp A &kp N0 &kp N5 &kp N0 &kp N2 &kp LEFT_BRACKET>;
             label = "MACRO_10";
         };
+
+        parentheses: parentheses {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "PARENTHESES";
+        };
     };
 
     behaviors {
