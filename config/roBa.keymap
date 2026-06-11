@@ -216,14 +216,14 @@
         squarebracket: squarebracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp JP_LPAREN &kp JP_RPAREN &kp LEFT_ARROW>;
+            bindings = <&kp JP_LBRACKET &kp JP_RBRACKET &kp LEFT_ARROW>;
             label = "SQUARE BRACKET";
         };
 
         curlybrace: curlybrace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp JP_LPAREN &kp JP_RPAREN &kp LEFT_ARROW>;
+            bindings = <&kp JP_LBRACE &kp JP_RBRACE &kp LEFT_ARROW>;
             label = "CURLY BRACE";
         };
 
