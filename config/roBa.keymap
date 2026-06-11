@@ -212,6 +212,16 @@
             bindings = <&kp JP_LPAREN &kp JP_RPAREN &kp LEFT_ARROW>;
             label = "PARENTHESES";
         };
+
+        behaviors {
+            paren_ht: paren_ht {
+                compatible = "zmk,behavior-hold-tap";
+                #binding-cells = <0>;
+                flavor = "balanced";
+                tapping-term-ms = <200>;
+                bindings = <&kp RPAR>, <&parentheses>;
+            };
+        };
     };
 
     behaviors {
