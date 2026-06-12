@@ -226,7 +226,6 @@
             bindings = <&kp JP_LBRACE &kp JP_RBRACE &kp LEFT_ARROW>;
             label = "CURLY BRACE";
         };
-
     };
 
     behaviors {
@@ -279,7 +278,7 @@
             bindings = <&mo>, <&kp>;
         };
 
-        paren_ht: paren_ht {
+        paren_ht: paren_holdtap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -287,7 +286,7 @@
             bindings = <&parentheses>, <&kp>;
         };
 
-        rbracket_ht: rbracket_ht {
+        rbracket_ht: rbracket_holdtap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -295,7 +294,7 @@
             bindings = <&squarebracket>, <&kp>;
         };
 
-        rbrace_ht: rbrace_ht {
+        rbrace_ht: rbrace_holdtap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
