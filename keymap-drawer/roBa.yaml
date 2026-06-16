@@ -94,7 +94,7 @@ layers:
   - '8'
   - '9'
   - '*'
-  - (
+  - {t: (, h: '&parentheses'}
   - '!'
   - ^
   - '['
@@ -106,7 +106,7 @@ layers:
   - ']'
   - '0x89'
   - '@'
-  - \
+  - {t: \, h: '&squarebracket'}
   - '-'
   - +
   - '#'
@@ -118,7 +118,7 @@ layers:
   - '}'
   - /
   - Sft+0x89
-  - '|'
+  - {t: '|', h: '&curlybrace'}
   - Sft+0x87
   - '='
   - '&'
@@ -313,8 +313,6 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
   k: '@'
 - p: [24, 25]
