@@ -245,7 +245,7 @@
         space_lt: space_layer {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             hold-trigger-on-release;
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
