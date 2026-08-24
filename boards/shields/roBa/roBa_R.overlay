@@ -59,7 +59,7 @@
 
         aml {
             layers = <0>;
-            input-processors =<&zip_temp_layer 6 750>;
+            input-processors =<&zip_temp_layer 6 500>;
         };
 //END
     };
