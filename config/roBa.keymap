@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 //&mkp_input_listener { input-processors = <&zip_temp_layer 6 750>; };
-&mkp_input_listener { input-processors = <&zip_temp_layer 6 500>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 6 300>; };
 
 //END
 // OS設定を日本語キーボードのまま使用するための変換定義
