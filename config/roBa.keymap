@@ -148,7 +148,7 @@
 
             // Ep0s7!_zip
 
-            bindings = <&kp LANGUAGE_2 &kp LS(E) &kp P &kp N0 &kp S &kp N7 &kp EXCL &kp JP_UNDERSCORE &kp Z &kp I &kp P>;
+            bindings = <&kp LANGUAGE_2 &kp LS(E) &kp P &kp N0 &kp S &kp N7 &kp EXCL &kp JP_UNDERSCORE &kp LS(Z) &kp LS(I) &kp LS(P)>;
             label = "MACRO_5";
         };
 
