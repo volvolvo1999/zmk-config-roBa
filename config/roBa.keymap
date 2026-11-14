@@ -7,6 +7,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 //&mkp_input_listener { input-processors = <&zip_temp_layer 6 750>; };
+
 &mkp_input_listener { input-processors = <&zip_temp_layer 6 500>; };
 
 //END
@@ -247,7 +248,6 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            hold-trigger-on-release;
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             bindings = <&mo>, <&kp>;
@@ -259,7 +259,6 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            hold-trigger-on-release;
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             bindings = <&mo>, <&kp>;
