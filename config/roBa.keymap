@@ -253,6 +253,7 @@
             bindings = <&mo>, <&kp>;
 
             hold-trigger-key-positions = <17 18 19 20 21 29 30 31 32>;
+            hold-trigger-on-release;
         };
 
         enter_lt: enter_layer {
