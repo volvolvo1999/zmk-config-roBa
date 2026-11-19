@@ -76,7 +76,7 @@
 
         double_quotation {
             bindings = <&kp JP_DQUOTE>;
-            key-positions = <20 21>;
+            key-positions = <20 19>;
         };
 
         equal {
@@ -87,6 +87,11 @@
         underscore {
             bindings = <&kp JP_UNDERSCORE>;
             key-positions = <18 19>;
+        };
+
+        yen {
+            bindings = <&kp B>;
+            key-positions = <30 31>;
         };
     };
 
