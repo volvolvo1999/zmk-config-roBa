@@ -79,12 +79,12 @@
             key-positions = <20 21>;
         };
 
-        eq {
+        equal {
             bindings = <&kp JP_EQUAL>;
             key-positions = <24 25>;
         };
 
-        un {
+        underscore {
             bindings = <&kp JP_UNDERSCORE>;
             key-positions = <18 19>;
         };
