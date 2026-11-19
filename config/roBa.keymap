@@ -84,8 +84,8 @@
             key-positions = <24 25>;
         };
 
-        aaa {
-            bindings = <&squarebracket>;
+        un {
+            bindings = <&kp JP_UNDERSCORE>;
             key-positions = <18 19>;
         };
     };
