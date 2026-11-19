@@ -83,6 +83,11 @@
             bindings = <&kp JP_EQUAL>;
             key-positions = <24 25>;
         };
+
+        aaa {
+            bindings = <&squarebracket>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
