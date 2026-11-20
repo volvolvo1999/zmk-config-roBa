@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: LEFT WIN, h: bluetooth}
+  - LEFT WIN
   - {t: '[', h: bluetooth}
   - N
   - M
@@ -248,8 +248,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,7 +313,11 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [20, 21]
+- p: [20, 19]
   k: '@'
 - p: [24, 25]
   k: _
+- p: [18, 19]
+  k: Sft+0x87
+- p: [30, 31]
+  k: '0x89'
